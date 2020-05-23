@@ -78,7 +78,8 @@ built on top of the Python programming language.
 
 ## Learn More:
 
-- **[Stomp Documentation](http://jasonrbriggs.github.io/stomp.py/index.html)** - Use this resource as the main resource for this class.
+- **[Stomp.py Documentation](http://jasonrbriggs.github.io/stomp.py/index.html)** - Use this resource as the main resource for this class.
+- **[STOMP Protocol Specification, Version 1.2](https://stomp.github.io/stomp-specification-1.2.html#Abstract)** - Use this resource to understand more about messaging systems that use the STOMP protocol.
 - **[Network Rail Open Data Feeds](https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/)** - Refer to this resource to understand what data feeds are available to subscribe to.
 - **[Open Rail Data Feeds Wiki](https://wiki.openraildata.com/index.php/About_the_Network_Rail_feeds)** - Check out this resource which has information on the Open Data available from the rail industry in Great Britain.
 
