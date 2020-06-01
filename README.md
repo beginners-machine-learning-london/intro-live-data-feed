@@ -46,18 +46,20 @@ For refresher on python programming we recommend the following free course:
 ## Setup
 Use the following guides to setup your development environment
 
-1. Create your local environment (see prerequisite No. 1): `conda create --name ${environment_name}`
-2. Activate the env: `conda activate ${environment_name}`
-3. Install your dependencies `pip install -r requirements.txt`
+- If using **Conda**
 
-- If using VirtualEnv
+1. Create the right environment for the project using conda (see prerequisite No. 1) use `conda env create -f environment.yaml`
+2. Activate the env: `conda activate bml-live-feed`
 
-3a. Add virtual env to jupyter notebook kernel
+- If using **VirtualEnv**
+
+1. Install your dependencies `pip install -r requirements.txt`
+2. Add virtual env to jupyter notebook kernel
     `python -m ipykernel install --user --name=${environment_name}`
     this should print "Installed kernelspec ${environment_name} in ${dir}
     
 
-4. Go to /notebooks/Lesson 1 - Basic Image Operations and select `kernel/change kernel/${environment_name}`
+4. Go to /notebooks/live-feed-exercise.ipynb and select `kernel/change kernel/${environment_name}`
 (every time you open a new lesson you're likely to have to select your kernel again)
 5. You're ready to go!
 

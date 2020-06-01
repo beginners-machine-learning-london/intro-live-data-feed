@@ -1,4 +1,4 @@
-name: live-feed
+name: bml-live-feed
 channels:
   - defaults
 dependencies:
