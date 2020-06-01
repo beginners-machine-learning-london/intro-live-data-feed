@@ -1,9 +1,9 @@
 # Learn to listen to live data feeds in Python
 
-Publish/subscribe messaging, or pub/sub messaging, is a form of asynchronous service-to-service communication used in serverless and microservices architectures. In a pub/sub model, any message published to a topic is immediately received by all of the subscribers to the topic. Pub/sub messaging can be used to enable event-driven architectures, or to decouple applications in order to increase performance, reliability and scalability.Ω
+Publish/subscribe messaging, or pub/sub messaging, is a form of asynchronous service-to-service communication used in serverless and microservices architectures. In a pub/sub model, any message published to a topic is immediately received by all of the subscribers to the topic. Pub/sub messaging can be used to enable event-driven architectures, or to decouple applications in order to increase performance, reliability and scalability.
 ## What will I learn during this workshop?
 
-In this hands-on Beginners Machine Learning online workshop, you will learn how to listen to live feeds, parse save the received messages.
+In this hands-on Beginners Machine Learning online workshop, you will learn how to listen to live feeds, parse and save the received messages.
 
 During the workshop we will listen to Network Rail's live train describer data a Jupyter notebook. We first will look at how one can listen to these messages, then how we can define our own behaviours to save and parse messages received.
 
@@ -16,7 +16,7 @@ During the workshop we will listen to Network Rail's live train describer data a
 
 ## Steps
 
-This workshop consists of 6 lessons and 1 projects:
+This workshop consists of 3 lessons and 4 projects:
 
 **LESSONS**
 1. Pub-Sub messaging systems and how to subscribe to one
@@ -24,7 +24,10 @@ This workshop consists of 6 lessons and 1 projects:
 3. Parsing JSON semi-structured messages into a tabular structure
 
 **PROJECTS**
-1. Listen to another network rail data feed, and save the messages received in CSV format after parsing them into tables
+1. Creating a fully featured pub-sub command line application that works with any Network Rail data feed
+2. Saving pub-sub messages on a computer that has limited memory
+3. Saving pub-sub messages in an organised format
+4. Writing algorithms to parsing and save messages from different Network Rail data feeds in tabular format
 
 ## YOUTUBE TUTORIAL
 
